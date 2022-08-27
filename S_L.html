@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Linking CSS file-->
+    <link rel="stylesheet" href="S_L.css">
+    <!--Let's add jQuery CND link to Hide/Show Form-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>SIGN UP & LOGIN PAGE</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="btn">
+                <button class="signUpBtn">SIGN UP</button>
+                <button class="LoginBtn">LOGIN</button>
+
+            </div>
+            <form actions="" class="signUp">
+                <div class="formGroup">
+                    <input type="text" name="name" id="user name" placeholder="Enter your name" autocomplete="off">
+                </div>
+                <div class="formGroup">
+                    <input type="email" name="email" id="Email" placeholder="Enter your email" autocomplete="off">
+                </div>
+                <div class="formGroup">
+                    <input type="password" name="password" id="password" placeholder="Create a password" autocomplete="off">
+                </div>
+                <div class="formGroup">
+                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" autocomplete="off">
+                </div>
+                <!--Adding Check Box-->
+                <div class="checkBox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span class="text">I agree with the terms & conditions.</span>
+                </div>
+                <div class="formGroup">
+                    <button class="btn2">REGISTER</button>
+                </div>
+
+                <div class="form-link">
+                    <span>Already have an account? <a href="detailed analysis page.html" class="link login-link">Login</a></span>
+                </div>
+
+            </form>
+
+            <!--Let's create Login form now-->
+            <form actions="#" class="login">
+
+                <div class="formGroup">
+                    <input type="email" name="email" id="Email" placeholder="Email ID" autocomplete="off">
+                </div>
+                <div class="formGroup">
+                    <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+                </div>
+
+                <div class="form-link">
+                    <a href="FYP.html" class="forgot-pass">Forgot password?</a>
+                </div>
+
+                <!--Adding Check Box-->
+                <div class="checkBox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span class="text">Remember me</span>
+                </div>
+                <div class="formGroup">
+                    <button class="btn2">LOGIN</button>
+                </div>
+                <div class="form-link">
+                    <span>Don't have an account? <a href="S_L.html" class="link signup-link">Signup</a></span>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+    <!--Adding javascript file in HTML-->
+    <script src="S_L.js"></script>
+</body>
+
+</html>
